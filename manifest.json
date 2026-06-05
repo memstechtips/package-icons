@@ -1,6 +1,6 @@
 {
-  "count": 221,
-  "description": "Icon manifest for memstechtips/package-icons. Keys are paths under icons/. external/ keyed by package-manager id (winget|choco); windows/ keyed by AppX package identity. Commit-pin via jsDelivr; re-download an icon when its sha256 changes.",
+  "count": 252,
+  "description": "Icon manifest for memstechtips/package-icons. Keys are paths under icons/. external/ keyed by package-manager id (winget|choco); windows/ keyed by AppX package identity, DISM CapabilityName, or OptionalFeatureName. Commit-pin via jsDelivr; re-download an icon when its sha256 changes.",
   "icons": {
     "external/7zip.7zip.png": {
       "choco": "7zip",
@@ -719,6 +719,54 @@
         "Microsoft.DirectX"
       ]
     },
+    "external/microsoft.dotnet.framework.developerpack_4.png": {
+      "choco": "netfx-4.8.1-devpack",
+      "name": ".NET Framework 4.8.1",
+      "sha256": "2962abb351166b1e16628cfa52f7acb56496ac2961d746119bc1a9c32686d8e5",
+      "winget": [
+        "Microsoft.DotNet.Framework.DeveloperPack_4"
+      ]
+    },
+    "external/microsoft.dotnet.runtime.3_1.png": {
+      "choco": "dotnetcore-3.1-runtime",
+      "name": "Microsoft .NET Runtime 3.1",
+      "sha256": "2962abb351166b1e16628cfa52f7acb56496ac2961d746119bc1a9c32686d8e5",
+      "winget": [
+        "Microsoft.DotNet.Runtime.3_1"
+      ]
+    },
+    "external/microsoft.dotnet.runtime.5.png": {
+      "choco": "dotnet-5.0-runtime",
+      "name": "Microsoft .NET Runtime 5.0",
+      "sha256": "2962abb351166b1e16628cfa52f7acb56496ac2961d746119bc1a9c32686d8e5",
+      "winget": [
+        "Microsoft.DotNet.Runtime.5"
+      ]
+    },
+    "external/microsoft.dotnet.runtime.6.png": {
+      "choco": "dotnet-6.0-runtime",
+      "name": "Microsoft .NET Runtime 6.0",
+      "sha256": "2962abb351166b1e16628cfa52f7acb56496ac2961d746119bc1a9c32686d8e5",
+      "winget": [
+        "Microsoft.DotNet.Runtime.6"
+      ]
+    },
+    "external/microsoft.dotnet.runtime.7.png": {
+      "choco": "dotnet-7.0-runtime",
+      "name": "Microsoft .NET Runtime 7.0",
+      "sha256": "2962abb351166b1e16628cfa52f7acb56496ac2961d746119bc1a9c32686d8e5",
+      "winget": [
+        "Microsoft.DotNet.Runtime.7"
+      ]
+    },
+    "external/microsoft.dotnet.runtime.8.png": {
+      "choco": "dotnet-8.0-runtime",
+      "name": "Microsoft .NET Runtime 8.0",
+      "sha256": "2962abb351166b1e16628cfa52f7acb56496ac2961d746119bc1a9c32686d8e5",
+      "winget": [
+        "Microsoft.DotNet.Runtime.8"
+      ]
+    },
     "external/microsoft.edgewebview2runtime.png": {
       "choco": "webview2-runtime",
       "name": "Microsoft EdgeWebView",
@@ -752,6 +800,110 @@
       "sha256": "f65fd258d9b50926837fb40466494f165a8ba6b524c067d944971699b931d194",
       "winget": [
         "Microsoft.PowerToys"
+      ]
+    },
+    "external/microsoft.vcredist.2005.x64.png": {
+      "choco": "vcredist2005",
+      "name": "Visual C++ 2005 (x64)",
+      "sha256": "2962abb351166b1e16628cfa52f7acb56496ac2961d746119bc1a9c32686d8e5",
+      "winget": [
+        "Microsoft.VCRedist.2005.x64"
+      ]
+    },
+    "external/microsoft.vcredist.2005.x86.png": {
+      "choco": "vcredist2005",
+      "name": "Visual C++ 2005 (x86)",
+      "sha256": "2962abb351166b1e16628cfa52f7acb56496ac2961d746119bc1a9c32686d8e5",
+      "winget": [
+        "Microsoft.VCRedist.2005.x86"
+      ]
+    },
+    "external/microsoft.vcredist.2008.x64.png": {
+      "choco": "vcredist2008",
+      "name": "Visual C++ 2008 (x64)",
+      "sha256": "2962abb351166b1e16628cfa52f7acb56496ac2961d746119bc1a9c32686d8e5",
+      "winget": [
+        "Microsoft.VCRedist.2008.x64"
+      ]
+    },
+    "external/microsoft.vcredist.2008.x86.png": {
+      "choco": "vcredist2008",
+      "name": "Visual C++ 2008 (x86)",
+      "sha256": "2962abb351166b1e16628cfa52f7acb56496ac2961d746119bc1a9c32686d8e5",
+      "winget": [
+        "Microsoft.VCRedist.2008.x86"
+      ]
+    },
+    "external/microsoft.vcredist.2010.x64.png": {
+      "choco": "vcredist2010",
+      "name": "Visual C++ 2010 (x64)",
+      "sha256": "2962abb351166b1e16628cfa52f7acb56496ac2961d746119bc1a9c32686d8e5",
+      "winget": [
+        "Microsoft.VCRedist.2010.x64"
+      ]
+    },
+    "external/microsoft.vcredist.2010.x86.png": {
+      "choco": "vcredist2010",
+      "name": "Visual C++ 2010 (x86)",
+      "sha256": "2962abb351166b1e16628cfa52f7acb56496ac2961d746119bc1a9c32686d8e5",
+      "winget": [
+        "Microsoft.VCRedist.2010.x86"
+      ]
+    },
+    "external/microsoft.vcredist.2012.x64.png": {
+      "choco": "vcredist2012",
+      "name": "Visual C++ 2012 (x64)",
+      "sha256": "2962abb351166b1e16628cfa52f7acb56496ac2961d746119bc1a9c32686d8e5",
+      "winget": [
+        "Microsoft.VCRedist.2012.x64"
+      ]
+    },
+    "external/microsoft.vcredist.2012.x86.png": {
+      "choco": "vcredist2012",
+      "name": "Visual C++ 2012 (x86)",
+      "sha256": "2962abb351166b1e16628cfa52f7acb56496ac2961d746119bc1a9c32686d8e5",
+      "winget": [
+        "Microsoft.VCRedist.2012.x86"
+      ]
+    },
+    "external/microsoft.vcredist.2013.x64.png": {
+      "choco": "vcredist2013",
+      "name": "Visual C++ 2013 (x64)",
+      "sha256": "2962abb351166b1e16628cfa52f7acb56496ac2961d746119bc1a9c32686d8e5",
+      "winget": [
+        "Microsoft.VCRedist.2013.x64"
+      ]
+    },
+    "external/microsoft.vcredist.2013.x86.png": {
+      "choco": "vcredist2013",
+      "name": "Visual C++ 2013 (x86)",
+      "sha256": "2962abb351166b1e16628cfa52f7acb56496ac2961d746119bc1a9c32686d8e5",
+      "winget": [
+        "Microsoft.VCRedist.2013.x86"
+      ]
+    },
+    "external/microsoft.vcredist.2015+.arm64.png": {
+      "choco": "vcredist140",
+      "name": "Visual C++ 2022 (ARM64)",
+      "sha256": "2962abb351166b1e16628cfa52f7acb56496ac2961d746119bc1a9c32686d8e5",
+      "winget": [
+        "Microsoft.VCRedist.2015+.arm64"
+      ]
+    },
+    "external/microsoft.vcredist.2015+.x64.png": {
+      "choco": "vcredist140",
+      "name": "Visual C++ 2015-2022 (x64)",
+      "sha256": "2962abb351166b1e16628cfa52f7acb56496ac2961d746119bc1a9c32686d8e5",
+      "winget": [
+        "Microsoft.VCRedist.2015+.x64"
+      ]
+    },
+    "external/microsoft.vcredist.2015+.x86.png": {
+      "choco": "vcredist140",
+      "name": "Visual C++ 2015-2022 (x86)",
+      "sha256": "2962abb351166b1e16628cfa52f7acb56496ac2961d746119bc1a9c32686d8e5",
+      "winget": [
+        "Microsoft.VCRedist.2015+.x86"
       ]
     },
     "external/microsoft.visualstudiocode.png": {
@@ -1412,6 +1564,21 @@
         "Zoom.Zoom"
       ]
     },
+    "windows/app.stepsrecorder.png": {
+      "capability": "App.StepsRecorder",
+      "name": "Steps Recorder",
+      "sha256": "02eccf4bdf3c3fe25fbc08783e73494aa360594d869bf08a8cbd2a91bbb51478"
+    },
+    "windows/app.support.quickassist.png": {
+      "capability": "App.Support.QuickAssist",
+      "name": "Quick Assist (Legacy)",
+      "sha256": "a7b793879a9cae481700a27b46009342c809d18b0ea61407aaedc5a3cd99d6ca"
+    },
+    "windows/browser.internetexplorer.png": {
+      "capability": "Browser.InternetExplorer",
+      "name": "Internet Explorer",
+      "sha256": "ee813502a62d12807560fae2f5d3d3f967b947fe59061b9c4e353632847b7631"
+    },
     "windows/clipchamp.clipchamp.png": {
       "appx": [
         "Clipchamp.Clipchamp"
@@ -1419,6 +1586,26 @@
       "msstore": "9P1J8S7CCWWT",
       "name": "Clipchamp",
       "sha256": "cf1db7bc88773e78ed663d0fdd52e3d5bb37d9ae5acb173aa89998c5b0d707be"
+    },
+    "windows/containers-disposableclientvm.png": {
+      "feature": "Containers-DisposableClientVM",
+      "name": "Windows Sandbox",
+      "sha256": "95ae0699f9f8ea28f3d0430f0852dfe5842a298f7c0c841491f11157b6f10b44"
+    },
+    "windows/media.windowsmediaplayer.png": {
+      "capability": "Media.WindowsMediaPlayer",
+      "name": "Windows Media Player",
+      "sha256": "6d59e7ef592908c16867b75323b22a7e5f4a11891ca806d4b7e7a69584e3f82c"
+    },
+    "windows/microsoft-hyper-v-all.png": {
+      "feature": "Microsoft-Hyper-V-All",
+      "name": "Hyper-V",
+      "sha256": "1d762cb7ac6d766a3324f5a717c2e99c8608fede8ac1d5573b31b5b46045935c"
+    },
+    "windows/microsoft-windows-subsystem-linux.png": {
+      "feature": "Microsoft-Windows-Subsystem-Linux",
+      "name": "Subsystem for Linux",
+      "sha256": "06ac9fd75c53cbf7479ea6e459987f1d5ce20a89ddd4feb72b8ade702a583f00"
     },
     "windows/microsoft.549981c3f5f10.png": {
       "appx": [
@@ -1468,10 +1655,7 @@
       ],
       "msstore": "9NBLGGH4NNS1",
       "name": "App Installer",
-      "sha256": "64f3d4568021a5a543a606bc60bcb9ee27ce19df7dddfd5a270459e4c5be4652",
-      "winget": [
-        "Microsoft.AppInstaller"
-      ]
+      "sha256": "64f3d4568021a5a543a606bc60bcb9ee27ce19df7dddfd5a270459e4c5be4652"
     },
     "windows/microsoft.edge.gameassist.png": {
       "appx": [
@@ -1518,10 +1702,7 @@
       ],
       "msstore": "XPFFTQ037JWMHS",
       "name": "Microsoft Edge",
-      "sha256": "b228b0337b1a34287b92d8bc3df91ba817a358d07ffc610e452244873b0b317c",
-      "winget": [
-        "Microsoft.Edge"
-      ]
+      "sha256": "b228b0337b1a34287b92d8bc3df91ba817a358d07ffc610e452244873b0b317c"
     },
     "windows/microsoft.microsoftofficehub.png": {
       "appx": [
@@ -1575,10 +1756,7 @@
         "Microsoft.OneDriveSync"
       ],
       "name": "OneDrive",
-      "sha256": "a10d659b31a0b812cd97e7d485ac7f19c4631c09716fa1902a3ee737614e8769",
-      "winget": [
-        "Microsoft.OneDrive"
-      ]
+      "sha256": "a10d659b31a0b812cd97e7d485ac7f19c4631c09716fa1902a3ee737614e8769"
     },
     "windows/microsoft.outlookforwindows.png": {
       "appx": [
@@ -1644,6 +1822,16 @@
       "name": "Windows Advanced Settings",
       "sha256": "8edaa77a95db85f822008e77e5f9fba60e69523369922b1f908d0c6fdffb8b93"
     },
+    "windows/microsoft.windows.mspaint.png": {
+      "capability": "Microsoft.Windows.MSPaint",
+      "name": "Paint (Legacy)",
+      "sha256": "51461aa006d9752dd30f331a1335310697da4f29447d86a3acd0f38395f51c86"
+    },
+    "windows/microsoft.windows.notepad.png": {
+      "capability": "Microsoft.Windows.Notepad",
+      "name": "Notepad (Legacy)",
+      "sha256": "b0831c36dcd97d484069eedee2df8c054e25c716656cfd7c408a7047f2a61f32"
+    },
     "windows/microsoft.windows.photos.png": {
       "appx": [
         "Microsoft.Windows.Photos"
@@ -1651,6 +1839,16 @@
       "msstore": "9WZDNCRFJBH4",
       "name": "Photos",
       "sha256": "35201f511580f1e116dfb42d757d4aaa9f695d77c43a803cf7ea69a390f88162"
+    },
+    "windows/microsoft.windows.powershell.ise.png": {
+      "capability": "Microsoft.Windows.PowerShell.ISE",
+      "name": "PowerShell ISE",
+      "sha256": "a742f619ad788054e492db5ea1fd94b6806a2c7b6254c5d317ed7659324b6ebf"
+    },
+    "windows/microsoft.windows.wordpad.png": {
+      "capability": "Microsoft.Windows.WordPad",
+      "name": "WordPad",
+      "sha256": "ea92d5324dd83d9aeb907c9c1f6042fe752aba6128a8096da7da1915a3dfdb68"
     },
     "windows/microsoft.windowsalarms.png": {
       "appx": [
@@ -1811,6 +2009,11 @@
       "msstore": "XP8BT8DW290MPQ",
       "name": "Microsoft Teams",
       "sha256": "f4b50f343fa3728856e13d645913272f857dab8e28532f8465d94b3f3df1b6bf"
+    },
+    "windows/recall.png": {
+      "feature": "Recall",
+      "name": "Recall",
+      "sha256": "e3178a23b147c613597b18b2e8ba5d5b9fd63326e5f2d931ba23d22ccae90e7f"
     }
   },
   "schemaVersion": 2
