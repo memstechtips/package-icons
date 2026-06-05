@@ -8,7 +8,7 @@ hotlinking dozens of uncontrolled third-party hosts.
 
 For use in the following projects:
 
-- **Winhance** — Windows customization app → <https://github.com/memstechtips/Winhance>
+- **Winhance** → <https://github.com/memstechtips/Winhance>
 - **Winhance website** → <https://winhance.net> (<https://github.com/memstechtips/winhance-website>)
 
 The repo is public so the icons can be fetched at runtime via jsDelivr (and/or bundled at build
