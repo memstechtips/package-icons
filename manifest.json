@@ -729,7 +729,7 @@
     "microsoft.edgewebview2runtime.png": {
       "choco": "webview2-runtime",
       "name": "Microsoft EdgeWebView",
-      "sha256": "c33b10feab575da4dcf0d315f807d286e0eae278b25cefcd6b78940e0b00249a",
+      "sha256": "1f4e19c9b357a988b140c7b34bfdebacd9fd806902870be3bc7bf1c78b88d7db",
       "winget": [
         "Microsoft.EdgeWebView2Runtime"
       ]
