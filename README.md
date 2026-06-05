@@ -6,7 +6,7 @@ hotlinking dozens of uncontrolled third-party hosts.
 
 ## What this is for
 
-These icons are used by Marco du Plessis's ("Memory") projects:
+For use in the following projects:
 
 - **Winhance** — Windows customization app → <https://github.com/memstechtips/Winhance>
 - **Winhance website** → <https://winhance.net> (<https://github.com/memstechtips/winhance-website>)
