@@ -25,8 +25,11 @@ icons/<winget-or-choco-id>.png
 
 - Lowercase always — GitHub and jsDelivr paths are case-sensitive, so normalizing avoids
   `Notepad++` vs `notepad++` mismatches.
-- Use the **full** winget Package ID (e.g. `notepad++.notepad++.png`), not a stripped form.
-- Square **PNG**, transparent background, **256×256**, optimized.
+- Use the **full** winget Package ID (e.g. `notepad++.notepad++.png`); fall back to the
+  Chocolatey ID when there's no winget package.
+- **PNG**, with a transparent background where the source provides one. Resolution is whatever
+  the best available vendor asset ships — it is **not** normalized to a fixed size, so icons
+  range from small (a vendor's only asset may be ~32px) up to a few thousand pixels.
 
 ## How to consume
 
@@ -37,19 +40,26 @@ and cached, which is what guarantees the bytes can't change under users:
 https://cdn.jsdelivr.net/gh/memstechtips/package-icons@<commit-sha>/icons/<id>.png
 ```
 
-## Provenance
+## Manifest
 
-`sources.json` records where each icon came from (the official vendor brand/press asset where
-possible), keyed by the same ID as the filename. Entry shape:
+`manifest.json` lists every icon with its `sha256` and the app's package-manager identities, so
+a consumer can map an app to its icon and detect when an icon's bytes change. Entry shape:
 
 ```json
 {
-  "notepad++.notepad++": {
-    "source": "https://notepad-plus-plus.org/...",
-    "note": "official site brand asset"
+  "icons": {
+    "notepad++.notepad++.png": {
+      "sha256": "…",
+      "name": "Notepad++",
+      "winget": ["Notepad++.Notepad++"],
+      "choco": "notepadplusplus"
+    }
   }
 }
 ```
+
+`msstore` and `downloadUrl` are included when the app defines them. Pin a commit and download
+only the icons whose `sha256` differs from your last sync.
 
 ## Trademarks & removal requests
 
