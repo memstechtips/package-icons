@@ -1,0 +1,29 @@
+THIRD-PARTY NOTICES
+===================
+
+This repository redistributes software icons and logos that are the property of their
+respective owners.
+
+All product names, logos, trademarks, and brands are the property of their respective owners.
+All company, product, and service names used in this repository are for identification purposes
+only. Use of these names, logos, and brands does not imply any affiliation with, sponsorship by,
+or endorsement by their respective owners.
+
+The icons are included solely to visually identify the corresponding software within the projects
+that consume this repository (e.g. Winhance — https://github.com/memstechtips/Winhance — and the
+Winhance website — https://winhance.net). This constitutes nominative fair use: no more of each
+mark is used than necessary to identify the product, and no endorsement is implied.
+
+Microsoft icons are intentionally not redistributed in this repository.
+
+Per-icon source provenance is recorded in `sources.json`.
+
+REMOVAL REQUESTS
+----------------
+
+If you are an individual or company that owns rights to a logo or icon in this repository and you
+would like it removed, please open an issue:
+
+    https://github.com/memstechtips/package-icons/issues
+
+The icon will be removed promptly on request.
