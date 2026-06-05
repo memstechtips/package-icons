@@ -61,5 +61,8 @@ endorsement is implied. See [`THIRD-PARTY-NOTICES`](./THIRD-PARTY-NOTICES) for t
 please [open an issue](https://github.com/memstechtips/package-icons/issues) and it will be taken
 down.** No need to escalate elsewhere first — an issue is the fastest way to reach me.
 
-Microsoft's own icons are intentionally **not** hosted here; those are resolved from the user's
-machine or Microsoft-served sources instead.
+Microsoft's **Windows component** icons (built-in Store apps, capabilities, and optional
+features) are intentionally **not** hosted here — those are resolved from the user's machine or
+Microsoft-served sources. Microsoft's downloadable **applications** (e.g. Visual Studio Code,
+PowerShell, PowerToys, Microsoft 365), however, are included like any other vendor's: they're
+installed the same way via a package manager and identified under the same nominative fair use.

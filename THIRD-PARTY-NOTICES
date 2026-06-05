@@ -14,7 +14,11 @@ that consume this repository (e.g. Winhance — https://github.com/memstechtips/
 Winhance website — https://winhance.net). This constitutes nominative fair use: no more of each
 mark is used than necessary to identify the product, and no endorsement is implied.
 
-Microsoft icons are intentionally not redistributed in this repository.
+Microsoft's Windows component icons (built-in Store apps, capabilities, and optional features)
+are intentionally not redistributed in this repository; they are resolved locally or from
+Microsoft-served sources. Microsoft's downloadable applications distributed via package managers
+(e.g. Visual Studio Code, PowerShell, PowerToys, Microsoft 365) are included on the same
+nominative-fair-use basis as every other third-party application.
 
 Per-icon source provenance is recorded in `sources.json`.
 
