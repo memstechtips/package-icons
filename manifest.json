@@ -94,7 +94,7 @@
       "choco": "audacity",
       "msstore": "XP8K0J757HHRDW",
       "name": "Audacity",
-      "sha256": "6f5d2d2a1ae5db766f120bc772839c48341ec61fdf17b1c97ef803cc290e53c7",
+      "sha256": "cbbfd31147be36508eac8cfe777f23b628b63956314404200b930448041ce1f8",
       "winget": [
         "Audacity.Audacity"
       ]
@@ -180,7 +180,7 @@
     "external/codecguide.k-litecodecpack.mega.png": {
       "choco": "k-litecodecpackmega",
       "name": "K-Lite Codec Pack (Mega)",
-      "sha256": "86271478ae0e221939daa382c5e586d71b66033379d4ed75b1670ec3ee0de73d",
+      "sha256": "8f604c946240d709d677a67ee66937310c97c9a0ba4390f4e93a520916379710",
       "winget": [
         "CodecGuide.K-LiteCodecPack.Mega"
       ]
@@ -542,7 +542,7 @@
     "external/iobit.iobitunlocker.png": {
       "choco": "iobit-unlocker",
       "name": "IObit Unlocker",
-      "sha256": "6ec31ca9c67509b748483a5117fdf866744eff8ca71f029997f5720d7d743190",
+      "sha256": "8b1e25cb39a70e010d827834e4718c871afbc132f0dc8fdda918cc6fcd9e4e69",
       "winget": [
         "IObit.IObitUnlocker"
       ]
@@ -611,7 +611,7 @@
       "choco": "krita",
       "msstore": "9N6X57ZGRW96",
       "name": "Krita",
-      "sha256": "653a2aedd789958e260dad371e60aea26cb5d44fbc3c5535797860bb7514f366",
+      "sha256": "02d5496539e3985f97e49978edd9689f1a963a21f4ffd1ea8da2309868e4fd82",
       "winget": [
         "KDE.Krita"
       ]
@@ -1590,7 +1590,7 @@
     "windows/containers-disposableclientvm.png": {
       "feature": "Containers-DisposableClientVM",
       "name": "Windows Sandbox",
-      "sha256": "95ae0699f9f8ea28f3d0430f0852dfe5842a298f7c0c841491f11157b6f10b44"
+      "sha256": "7254ac5122fd6e57e5f0413ff65b71e5736de939cc2bb6642f7642ae594f02d3"
     },
     "windows/media.windowsmediaplayer.png": {
       "capability": "Media.WindowsMediaPlayer",
@@ -1600,7 +1600,7 @@
     "windows/microsoft-hyper-v-all.png": {
       "feature": "Microsoft-Hyper-V-All",
       "name": "Hyper-V",
-      "sha256": "1d762cb7ac6d766a3324f5a717c2e99c8608fede8ac1d5573b31b5b46045935c"
+      "sha256": "581c65e0aa5351772d36532f33bdf5d9c6a3cc8d0797f23d6308758e1ad05221"
     },
     "windows/microsoft-windows-subsystem-linux.png": {
       "feature": "Microsoft-Windows-Subsystem-Linux",
@@ -2013,7 +2013,7 @@
     "windows/recall.png": {
       "feature": "Recall",
       "name": "Recall",
-      "sha256": "e3178a23b147c613597b18b2e8ba5d5b9fd63326e5f2d931ba23d22ccae90e7f"
+      "sha256": "97d0afa0c26e1263dc5b60518c8e27c37dc2c28709c1c130919c3ec727186b71"
     }
   },
   "schemaVersion": 2
