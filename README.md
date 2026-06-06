@@ -11,6 +11,11 @@ For use in the following projects:
 - **Winhance** → <https://github.com/memstechtips/Winhance>
 - **Winhance website** → <https://winhance.net> (<https://github.com/memstechtips/winhance-website>)
 
+In these projects the icons are used **for identification purposes only** — so users can visually
+recognise which applications they are about to install or remove. The icons are not used as
+branding, and no affiliation with, sponsorship by, or endorsement by the icon or trademark owners
+is implied. See [`THIRD-PARTY-NOTICES`](./THIRD-PARTY-NOTICES) for the full notice.
+
 The repo is public so the icons can be fetched at runtime via jsDelivr (and/or bundled at build
 time). It is not a general-purpose icon CDN — it exists to serve those projects — but the layout
 is deliberately app-agnostic so it can be reused.
