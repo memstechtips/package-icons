@@ -20,7 +20,16 @@ Microsoft-served sources. Microsoft's downloadable applications distributed via 
 (e.g. Visual Studio Code, PowerShell, PowerToys, Microsoft 365) are included on the same
 nominative-fair-use basis as every other third-party application.
 
-Per-icon source provenance is recorded in `sources.json`.
+Per-icon identity (package-manager IDs, AppX identity, sha256) is recorded in `manifest.json`.
+
+ICONS8
+------
+
+The ExplorerPatcher icon (`icons/external/valinet.explorerpatcher.png`) is the "Windows
+Explorer" icon from the Icons8 Fluent set, used under Icons8's free license, which permits
+use with a link-back attribution:
+
+    Icon by Icons8 — https://icons8.com
 
 REMOVAL REQUESTS
 ----------------
