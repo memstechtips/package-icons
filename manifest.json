@@ -1,5 +1,5 @@
 {
-  "count": 252,
+  "count": 253,
   "description": "Icon manifest for memstechtips/package-icons. Keys are paths under icons/. external/ keyed by package-manager id (winget|choco); windows/ keyed by AppX package identity, DISM CapabilityName, or OptionalFeatureName. Commit-pin via jsDelivr; re-download an icon when its sha256 changes.",
   "icons": {
     "external/7zip.7zip.png": {
@@ -1409,6 +1409,13 @@
       "sha256": "1e280a155400d2335102cde3cb10cac790f04ee5458214746a8250aee8b76620",
       "winget": [
         "Ubisoft.Connect"
+      ]
+    },
+    "external/valinet.explorerpatcher.png": {
+      "name": "ExplorerPatcher",
+      "sha256": "8d77ff4ac99a48aac46d0163a49494f7afbbd6cd34a3469d56910fb808c614d1",
+      "winget": [
+        "valinet.ExplorerPatcher"
       ]
     },
     "external/valve.steam.png": {
