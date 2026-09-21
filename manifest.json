@@ -1,5 +1,5 @@
 {
-  "count": 253,
+  "count": 252,
   "description": "Icon manifest for memstechtips/package-icons. Keys are paths under icons/. external/ keyed by package-manager id (winget|choco); windows/ keyed by AppX package identity, DISM CapabilityName, or OptionalFeatureName. Commit-pin via jsDelivr; re-download an icon when its sha256 changes.",
   "icons": {
     "external/7zip.7zip.png": {
@@ -358,11 +358,6 @@
       "msstore": "9P1XD8ZQJ7JD",
       "name": "fre:ac - free audio converter",
       "sha256": "c7a7978af658d4e220afa1e2d1039dc3b50c6e15b4bcc7797a9a463265c6450a"
-    },
-    "external/freefilesync.png": {
-      "choco": "freefilesync",
-      "name": "FreeFileSync",
-      "sha256": "2d49141574966e07b7e16fe040747bfc1f0e48fed26d843f3a7addb777e96e87"
     },
     "external/fxsound.fxsound.png": {
       "choco": "fxsound",
