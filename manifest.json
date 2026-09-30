@@ -1,5 +1,5 @@
 {
-  "count": 254,
+  "count": 255,
   "description": "Icon manifest for memstechtips/package-icons. Keys are paths under icons/. external/ keyed by package-manager id (winget|choco); windows/ keyed by AppX package identity, DISM CapabilityName, or OptionalFeatureName. Commit-pin via jsDelivr; re-download an icon when its sha256 changes.",
   "icons": {
     "external/7zip.7zip.png": {
@@ -346,6 +346,15 @@
       "sha256": "22493c3672cf00c6b7d78cacc2d29f9ff12bb2fdda7c59857bdf15bce9cb6262",
       "winget": [
         "FastStone.Viewer"
+      ]
+    },
+    "external/file-new-project.eartrumpet.png": {
+      "choco": "eartrumpet",
+      "msstore": "9NBLGGH516XP",
+      "name": "EarTrumpet",
+      "sha256": "e6b952cf7ea3d55dec7c08ec6042b3387f60ef23975b549da1476a9d22834da5",
+      "winget": [
+        "File-New-Project.EarTrumpet"
       ]
     },
     "external/flameshot.flameshot.png": {
