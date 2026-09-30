@@ -1,5 +1,5 @@
 {
-  "count": 253,
+  "count": 254,
   "description": "Icon manifest for memstechtips/package-icons. Keys are paths under icons/. external/ keyed by package-manager id (winget|choco); windows/ keyed by AppX package identity, DISM CapabilityName, or OptionalFeatureName. Commit-pin via jsDelivr; re-download an icon when its sha256 changes.",
   "icons": {
     "external/7zip.7zip.png": {
@@ -1229,6 +1229,14 @@
       "sha256": "1070a7881531a67df7be18393c8d4a59f17c9fd32cb14544913f24fddd811b28",
       "winget": [
         "RealVNC.VNCViewer"
+      ]
+    },
+    "external/rem0o.fancontrol.png": {
+      "choco": "fancontrol",
+      "name": "FanControl",
+      "sha256": "bbab3df51ad01017684109cb32b2d4efcfff6b0217861099d5ddf6c97f15fae5",
+      "winget": [
+        "Rem0o.FanControl"
       ]
     },
     "external/revouninstaller.revouninstaller.png": {
