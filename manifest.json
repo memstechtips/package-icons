@@ -1,5 +1,5 @@
 {
-  "count": 255,
+  "count": 256,
   "description": "Icon manifest for memstechtips/package-icons. Keys are paths under icons/. external/ keyed by package-manager id (winget|choco); windows/ keyed by AppX package identity, DISM CapabilityName, or OptionalFeatureName. Commit-pin via jsDelivr; re-download an icon when its sha256 changes.",
   "icons": {
     "external/7zip.7zip.png": {
@@ -175,6 +175,14 @@
       "sha256": "8035167a0943815bf32ca719e944d25ae896fd903b89dfd48453261cb4345332",
       "winget": [
         "ch.LosslessCut"
+      ]
+    },
+    "external/clsid2.mpc-hc.png": {
+      "choco": "mpc-hc-clsid2",
+      "name": "MPC-HC",
+      "sha256": "215cfb97755b052756f2d4f9ddad5e907b8aea2d18282d902dba2ff7a58c8cea",
+      "winget": [
+        "clsid2.mpc-hc"
       ]
     },
     "external/codecguide.k-litecodecpack.mega.png": {
