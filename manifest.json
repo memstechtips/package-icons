@@ -1,5 +1,5 @@
 {
-  "count": 258,
+  "count": 265,
   "description": "Icon manifest for memstechtips/package-icons. Keys are paths under icons/. external/ keyed by package-manager id (winget|choco); windows/ keyed by AppX package identity, DISM CapabilityName, or OptionalFeatureName. Commit-pin via jsDelivr; re-download an icon when its sha256 changes.",
   "icons": {
     "external/7zip.7zip.png": {
@@ -297,6 +297,14 @@
         "EclipseFoundation.Eclipse.Java"
       ]
     },
+    "external/edde746.plezy.png": {
+      "choco": "plezy",
+      "name": "Plezy",
+      "sha256": "ef24985123cd0c50ab8d5cf79d758c022fbf88d38ba849e5ad08c18b59c9c556",
+      "winget": [
+        "edde746.Plezy"
+      ]
+    },
     "external/electronicarts.eadesktop.png": {
       "choco": "ea-app",
       "name": "EA app",
@@ -508,6 +516,13 @@
       "sha256": "ad968eca0c789ba8e288d14c843a04d0b8d7d1a3bed5b8544b498d27fc63eb49",
       "winget": [
         "GuinpinSoft.MakeMKV"
+      ]
+    },
+    "external/guru3d.afterburner.png": {
+      "name": "MSI Afterburner",
+      "sha256": "29770e31e026db9f485d3d86262d1f09c474d0613f443e89fb0ff7fb533f6363",
+      "winget": [
+        "Guru3D.Afterburner"
       ]
     },
     "external/handbrake.handbrake.png": {
@@ -1170,6 +1185,22 @@
         "Playnite.Playnite"
       ]
     },
+    "external/plex.plex.png": {
+      "choco": "plex",
+      "name": "Plex",
+      "sha256": "16b1d5c0d818fe72516e5fbdade49226fcf31a054269b7099b635c4777fe1029",
+      "winget": [
+        "Plex.Plex"
+      ]
+    },
+    "external/plex.plexmediaserver.png": {
+      "choco": "plexmediaserver",
+      "name": "Plex Media Server",
+      "sha256": "f09327c01683890efde22c7020bfea14745e2652ebad1772350cc0ee5d0c0999",
+      "winget": [
+        "Plex.PlexMediaServer"
+      ]
+    },
     "external/powersoftware.anyburn.png": {
       "name": "AnyBurn",
       "sha256": "17503d96bd4015bc9305d73b7266b239880c37e887d0b666f2bc13e91bcf29a4",
@@ -1193,6 +1224,14 @@
         "Proton.ProtonMail"
       ]
     },
+    "external/proton.protonvpn.png": {
+      "choco": "protonvpn",
+      "name": "Proton VPN",
+      "sha256": "b2dadbb195e54dc21a44561195b66f330fcac4c5895aec678489b67cc652fb1d",
+      "winget": [
+        "Proton.ProtonVPN"
+      ]
+    },
     "external/putty.putty.png": {
       "choco": "putty",
       "msstore": "XPFNZKSKLBP7RJ",
@@ -1209,6 +1248,14 @@
       "sha256": "4d9303b71249cb4dafa7f6e58c5d783fb60a549a3f39afca3107c774679f4ca0",
       "winget": [
         "Python.Python.3.13"
+      ]
+    },
+    "external/qbittorrent.qbittorrent.png": {
+      "choco": "qbittorrent",
+      "name": "qBittorrent",
+      "sha256": "36af88cbd93a5fda66d0a353b5cc2a8c143a917790e6147fc5b8a3ee810ac592",
+      "winget": [
+        "qBittorrent.qBittorrent"
       ]
     },
     "external/rainmeter.rainmeter.png": {
@@ -1432,6 +1479,14 @@
       "sha256": "ec6db866230846de2de6df65165f624c5e3e51ee0a7007b0fa986b97e7b44b4a",
       "winget": [
         "TheDocumentFoundation.LibreOffice"
+      ]
+    },
+    "external/tonec.internetdownloadmanager.png": {
+      "choco": "internet-download-manager",
+      "name": "Internet Download Manager",
+      "sha256": "19f3ede9006b4fe90b50b31abb2943183c5623f8c8ec8b8642ae0e77cb63ecf8",
+      "winget": [
+        "Tonec.InternetDownloadManager"
       ]
     },
     "external/torproject.torbrowser.png": {
