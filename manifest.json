@@ -1,5 +1,5 @@
 {
-  "count": 256,
+  "count": 257,
   "description": "Icon manifest for memstechtips/package-icons. Keys are paths under icons/. external/ keyed by package-manager id (winget|choco); windows/ keyed by AppX package identity, DISM CapabilityName, or OptionalFeatureName. Commit-pin via jsDelivr; re-download an icon when its sha256 changes.",
   "icons": {
     "external/7zip.7zip.png": {
@@ -1298,6 +1298,12 @@
       "winget": [
         "RustDesk.RustDesk"
       ]
+    },
+    "external/samsung-magician.png": {
+      "choco": "samsung-magician",
+      "msstore": "XPDDT99J9GKB5C",
+      "name": "Samsung Magician",
+      "sha256": "821e93172d88ba8e6b917c0abd3816b5bb1ff5555b30bb5d0237719c8266fc6c"
     },
     "external/sandisk.dashboard.png": {
       "choco": "sandisk-dashboard",
