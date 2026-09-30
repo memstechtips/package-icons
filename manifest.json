@@ -1,5 +1,5 @@
 {
-  "count": 257,
+  "count": 258,
   "description": "Icon manifest for memstechtips/package-icons. Keys are paths under icons/. external/ keyed by package-manager id (winget|choco); windows/ keyed by AppX package identity, DISM CapabilityName, or OptionalFeatureName. Commit-pin via jsDelivr; re-download an icon when its sha256 changes.",
   "icons": {
     "external/7zip.7zip.png": {
@@ -1008,6 +1008,11 @@
       "winget": [
         "Notepad++.Notepad++"
       ]
+    },
+    "external/nvidia-control-panel.png": {
+      "msstore": "9NF8H0H7WMLT",
+      "name": "NVIDIA Control Panel",
+      "sha256": "67a8fb738ac666d53022c37c3120ac7af1f0fe969c1beb17cc86e7c6eb4d639e"
     },
     "external/obsproject.obsstudio.png": {
       "choco": "obs-studio",
