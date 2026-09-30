@@ -1,5 +1,5 @@
 {
-  "count": 252,
+  "count": 253,
   "description": "Icon manifest for memstechtips/package-icons. Keys are paths under icons/. external/ keyed by package-manager id (winget|choco); windows/ keyed by AppX package identity, DISM CapabilityName, or OptionalFeatureName. Commit-pin via jsDelivr; re-download an icon when its sha256 changes.",
   "icons": {
     "external/7zip.7zip.png": {
@@ -218,6 +218,15 @@
       "sha256": "8a044f27d141de33f7d2008d10863731be537122cafcfc755db2130a8f9115af",
       "winget": [
         "Deskflow.Deskflow"
+      ]
+    },
+    "external/devolutions.unigetui.png": {
+      "choco": "unigetui",
+      "msstore": "XPFFTQ032PTPHF",
+      "name": "UniGetUI",
+      "sha256": "a996266c0b6dc53a9ebdfb3f58bc402b3b0246fa21810fb508553d16a42e1006",
+      "winget": [
+        "Devolutions.UniGetUI"
       ]
     },
     "external/discord.discord.png": {
