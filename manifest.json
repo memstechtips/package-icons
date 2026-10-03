@@ -1,5 +1,5 @@
 {
-  "count": 265,
+  "count": 267,
   "description": "Icon manifest for memstechtips/package-icons. Keys are paths under icons/. external/ keyed by package-manager id (winget|choco); windows/ keyed by AppX package identity, DISM CapabilityName, or OptionalFeatureName. Commit-pin via jsDelivr; re-download an icon when its sha256 changes.",
   "icons": {
     "external/7zip.7zip.png": {
@@ -200,6 +200,15 @@
       "sha256": "b1cf9fee1589500a7fd43940f1222c82a8eb91471fd180238d76be1096cac739",
       "winget": [
         "CodeSector.TeraCopy"
+      ]
+    },
+    "external/crystaldewworld.crystaldiskinfo.png": {
+      "choco": "crystaldiskinfo",
+      "msstore": "XP8K4RGX25G3GM",
+      "name": "Crystal Disk Info",
+      "sha256": "97ec6d5d0b19eae3d5985926ac475ab53d6be35b638552bd3ccd8aa73f347c08",
+      "winget": [
+        "CrystalDewWorld.CrystalDiskInfo"
       ]
     },
     "external/cyanfish.naps2.png": {
@@ -1342,6 +1351,11 @@
       "winget": [
         "Rufus.Rufus"
       ]
+    },
+    "external/rustdesk.png": {
+      "choco": "rustdesk",
+      "name": "RustDesk",
+      "sha256": "9dc3ea42b25890c70a1b31d37e89c39a02a4f2bbc1a7d80cbbf6859a40bb4973"
     },
     "external/rustdesk.rustdesk.png": {
       "choco": "rustdesk",
